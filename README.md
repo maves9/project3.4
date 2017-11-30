@@ -9,7 +9,7 @@ Dette repository indeholder det afsluttene projekt for 3 semester, projekt 3.4, 
 
 Opgaver uddeles vha. Trello https://trello.com/b/xvLMDudg/3-semester-2017
 
-## BEM metologi
+## BEM mytologi
 Alt kode relavant er beskrevet på engelsk. SCSS styling med hjælp af classes og mainpuler JavaScript med hjælp af ID
 ### CSS
 Beskriv hvor din class er henne vha "__" for eksempel 

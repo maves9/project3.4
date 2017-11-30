@@ -1,6 +1,13 @@
 # project3.4
 Dette repo indeholder det afsluttene projekt for 3 semester, projekt 3.4, med Jagt og fiskeri som kunde
 
+### Programering sprog
+* HTML
+* CSS / SASS og SCSS
+* PHP
+* JavaScript
+
+
 ## BEM metologi
 Alt kode relavant er beskrevet på engelsk. SCSS styling med hjælp af classes og mainpuler JavaScript med hjælp af ID
 ### CSS

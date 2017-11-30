@@ -1,7 +1,7 @@
 # project3.4
 Dette repository indeholder det afsluttene projekt for 3 semester, projekt 3.4, med Jagt og fiskeri som kunde
 
-### Programering sprog
+### Programerings sprog
 * HTML
 * CSS / SASS og SCSS
 * PHP

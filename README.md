@@ -1,5 +1,5 @@
 # project3.4
-Dette repository indeholder det afsluttene projekt for 3 semester, projekt 3.4, med Jagt og fiskeri som kunde
+Dette repository indeholder det afsluttene projekt for 3 semester, projekt 3.4, med jagt og fiskeri magasinet magaz som kunde
 
 ### Programerings sprog
 * HTML

@@ -13,4 +13,4 @@ Beskriv ID, variabler og funktioner i "camel case"
 `var removeItem`
 Beskriv så meget som muligt i navngivningen for at undgå extra kommentaer
 exempel:
-`function calculateNumbersArray(){}`
+`function calculateNumbersInArray(){}`

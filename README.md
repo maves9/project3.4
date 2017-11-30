@@ -26,11 +26,9 @@ exempel:
 ### Filer og navngivning
 
 vi spliter gerne filer of i mindre moduler of at danne overblik og benytter include fra PHP til at sætte dem sammen. Før modulerne bliver lavet skal du dog sikre at have en "main module" som samler komponenterne detter illustreres med at tilføje _main til filnavne
-
-`gallery_main.php
-
+```
+ gallery_main.php
  gallery_dogs.php
- 
  gallery_cats.php
- 
- gallery_COOKIE.php`
+ gallery_COOKIES.php
+```

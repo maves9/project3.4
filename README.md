@@ -7,6 +7,7 @@ Dette repository indeholder det afsluttene projekt for 3 semester, projekt 3.4, 
 * PHP
 * JavaScript
 
+Opgaver uddeles vha. Trello https://trello.com/b/xvLMDudg/3-semester-2017
 
 ## BEM metologi
 Alt kode relavant er beskrevet på engelsk. SCSS styling med hjælp af classes og mainpuler JavaScript med hjælp af ID

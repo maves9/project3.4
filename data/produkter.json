@@ -2,93 +2,88 @@
 	"produkter": {
 		"jagt": {
 			"våben_og_tilbehør": {
-				"rifler": [
-				  {
+				"rifler": [{
 						"navn": "Browning X-Bolt Stainless Stalker Kal.308 win",
 						"beskrivelse": "Brownings X-Bolt rifler er en videreudvikling af deres succesfulde A-Bolt serie. X - Bolt kommer i et vælg af varianter, så man altid er sikker på at kunne finde en riffel, der passer til ens behov. Fælles for dem alle er dog nogle nye, forbedrede features, hvor den adskiller sig fra A - Bolt serien. De har blandt andet fået et aftageligt magasin, der ligesom man kender det fra Steyr, har en roterende gang.Dette medvirker til en problemfri fødning, samtidig med at man kan fylde magasinet i riflen oppefra. Ud over det er X - Bolt forsynet med en ekstra udløser på ladegrebet, der gør, at man kan aflade riflen i sikret tilstand.Riflen har kolbehalssikring. X - Bolt er forsynet med en rekyldæmpende kolbekappe i gummi. Det hjælper riflen til ikke at skride, hvis den stilles på en glat overflade.Gummikappen er tilstrækkeligt blød til, at den virker - i modsætning til mange andre gummikapper. De har samme lave lukkevinkel(60°) som A - Bolt serien, og det medvirker til en hurtigere repetering. Justerbart aftræk og fritliggende, koldhamret pibe. Fås i de fleste kalibrer. X - Bolt Stainless Stalker er med mat rustfri pibe og låsestol. Skæfte i hård plast med gummigreb ved pistolgreb og forskæfte.",
 						"pris": "8499 kr.",
-            "billede":"./img/produkter/xbolt.jpg",
-            "produkt_nr": 1
+						"billede": "xbolt.jpg",
+						"produkt_nr": 1
 					},
 					{
 						"navn": "Mossberg 4x4, .308 Win. inkl. Kikkert",
 						"beskrivelse": "I Mossbergs 4x4 riffel får man meget for pengene. Denne model er sidste skud på stammen. Mossbergs aftrækkersystem - patenteret og justerbare LBA trigger system (Lightning bolt action). Syntetisk Montecarloskæfte med kindpude. Kolbekappe i blødt gummi som vil have en rekyldæmpende effekt. 5 skuds boksmagasin (5 + 1). Denne model bliver endvidere leveret med spiral fluted bundstykke, der sammen med den ligeflutetet pibe (62 cm) giver den et frækt udseende. Låsestolen er forberedt for kikkert montage med formonteret Weaver baser.Vægt 2,9 kg Mossberg 4x4, .308 Win.",
 						"pris": "5195 kr.",
-            "billede":"./img/produkter/mossberg.jpg",
-            "produkt_nr": 2
+						"billede": "mossberg.jpg",
+						"produkt_nr": 2
 					},
 					{
 						"navn": "Ruger (American) .308 Win. & 30-06",
 						"beskrivelse": "Rugers American - det sidste nye skud på stammen. Ruger har fremstillet denne nye riffel - formentlig for at have et alternativ til Browning X-Bolt. Den har alle de samme tekniske features. Med Ruger er det traditionen tro: value for money.",
 						"pris": "5680 kr.",
-            "billede":"./img/produkter/ruger.jpg",
-            "produkt_nr": 3
+						"billede": "ruger.jpg",
+						"produkt_nr": 3
 					}
 
-				], 
-        "tilbehør":{
-          "rens_og_pleje":[
-            {
-              "navn":"Ballistol - Special edition Harald Klavinius 2015",
-              "beskrivelse":"Perfekt gaveidé til jægeren der har alt ! I samarbejde med den verdensberømte tegner Harald Klavinius har Ballistol frembragt dette tilbudssæt. Det er tillige et meget specielt samlerobjekt - ikke kun for Ballistol elskere. Det usædvanlige design giver en god metalkasse kultstatus. Det er begrænset oplag. Fokus er på det verdenskendte og gennemprøvede Ballistol olie. I det uforlignelige Klavinius design er nogle anvendelsesområder for olien eksemplificeret. Hvad angår indholdet, spiller den universelle olie hovedrollen. Udover den praktiske 50 ml sprayolie til at have med sig, er der en standardspray i standard størrelse 200ml. Hertil kommer en universal olie i 250 ml uden spray i Klavinius-Ouftfit. Dette er kun en del af kassen. Der medfølger et ægthedscertifikat og Ballistol historien på tysk. ",
-              "pris":"199 kr.",
-              "billede":"./img/produkter/ballistol.jpg",
-              "produkt_nr": 4
-            }
-          ] 
-        }
-			} 
-		}, 
+				],
+				"tilbehør": {
+					"rens_og_pleje": [{
+						"navn": "Ballistol - Special edition Harald Klavinius 2015",
+						"beskrivelse": "Perfekt gaveidé til jægeren der har alt ! I samarbejde med den verdensberømte tegner Harald Klavinius har Ballistol frembragt dette tilbudssæt. Det er tillige et meget specielt samlerobjekt - ikke kun for Ballistol elskere. Det usædvanlige design giver en god metalkasse kultstatus. Det er begrænset oplag. Fokus er på det verdenskendte og gennemprøvede Ballistol olie. I det uforlignelige Klavinius design er nogle anvendelsesområder for olien eksemplificeret. Hvad angår indholdet, spiller den universelle olie hovedrollen. Udover den praktiske 50 ml sprayolie til at have med sig, er der en standardspray i standard størrelse 200ml. Hertil kommer en universal olie i 250 ml uden spray i Klavinius-Ouftfit. Dette er kun en del af kassen. Der medfølger et ægthedscertifikat og Ballistol historien på tysk. ",
+						"pris": "199 kr.",
+						"billede": "ballistol.jpg",
+						"produkt_nr": 4
+					}]
+				}
+			}
+		},
 		"fiskeri": {
 			"stænger_og_tilbehør": {
-				"fiskestænger": [
-					{
+				"fiskestænger": [{
 						"navn": "Shimano Alivio sæt",
 						"beskrivelse": "Klassisk spinnestang med korkhåndtag. Ny 2015 model, som er opgraderet med en lettere klinge. Inkl. Shimano Alivio 2500RC eller 4000RC hjul",
 						"pris": "Fra 549 kr.",
-            "billede":"./img/produkter/shimano.jpg",
-            "produkt_nr": 10
+						"billede": "shimano.jpg",
+						"produkt_nr": 10
 					},
 					{
 						"navn": "Penn Squadron 4-delt 10´",
 						"beskrivelse": "Kraftig 4-delt stang fra Penn. En let stang i forhold til den styrke du får. Perfekt til havne/molefiskeri eller rejsestang til fiskeriet sydpå. 10 fod 20-80g - 4-delt. Aluminiums hjulholder, Stærke LTS stangøjer, Ekstrem styrke",
 						"pris": "729 kr.",
-            "billede":"./img/produkter/penn.jpg",
-            "produkt_nr": 11
+						"billede": "penn.jpg",
+						"produkt_nr": 11
 					}
 				],
 
-				"tilbehør": [
-						{
-							"navn": "Snowbee Teleskopnet",
-							"beskrivelse": "Nok markedets bedste kvalitet! Glasfiber ramme og stærk metal lås.Knudefrit. Haves i str M, XL, XXL ",
-							"pris": "Fra 369 kr.",
-							"billede":"./img/produkter/snowbee.jpg",
-							"produkt_nr": 12
-						},
-						{
-							"navn": "Hansen blink",
-							"beskrivelse": "Klassiske kystblink til de skandinaviske kyster. Mange forskellige modeller og farver, bl.a den velkendte stripper. Ta' 3 stk for 100kr.",
-							"pris": "39 kr/stk.",
-							"billede":"./img/produkter/blink.jpg",
-							"produkt_nr": 13
-						},
-						{
-							"navn": "Cigaret",
-							"beskrivelse": "Klassisk cigaret med masser af nikotin. Lige til at tænde. Fåes oftest i pakker.",
-							"pris": "55 kr.",
-							"billede":"./img/produkter/cigaret.jpg",
-							"produkt_nr": 98
-						},
-						{
-							"navn": "Kaffe",
-							"beskrivelse": "Sort kaffe når den er bedst med masser af koffein.",
-							"pris": "25 kr.",
-							"billede":"./img/produkter/kaffe.jpg",
-							"produkt_nr": 99
-						}
-					]
-			} 
+				"tilbehør": [{
+						"navn": "Snowbee Teleskopnet",
+						"beskrivelse": "Nok markedets bedste kvalitet! Glasfiber ramme og stærk metal lås.Knudefrit. Haves i str M, XL, XXL ",
+						"pris": "Fra 369 kr.",
+						"billede": "snowbee.jpg",
+						"produkt_nr": 12
+					},
+					{
+						"navn": "Hansen blink",
+						"beskrivelse": "Klassiske kystblink til de skandinaviske kyster. Mange forskellige modeller og farver, bl.a den velkendte stripper. Ta' 3 stk for 100kr.",
+						"pris": "39 kr/stk.",
+						"billede": "blink.jpg",
+						"produkt_nr": 13
+					},
+					{
+						"navn": "Cigaret",
+						"beskrivelse": "Klassisk cigaret med masser af nikotin. Lige til at tænde. Fåes oftest i pakker.",
+						"pris": "55 kr.",
+						"billede": "cigaret.jpg",
+						"produkt_nr": 98
+					},
+					{
+						"navn": "Kaffe",
+						"beskrivelse": "Sort kaffe når den er bedst med masser af koffein.",
+						"pris": "25 kr.",
+						"billede": "kaffe.jpg",
+						"produkt_nr": 99
+					}
+				]
+			}
 		}
-	} 
-} 
+	}
+}

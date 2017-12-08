@@ -7,7 +7,7 @@
 				"til": "31-01-2018"
 			},
 			"lokation": "Vestjylland og  Djursland",
-      "billede":"./img/dyr/spidshjort.jpg",
+      "billede":"spidshjort.jpg",
 			"anbefalede_produkter":[1, 2, 3, 4]
 		},
 		"dådyr": {
@@ -17,7 +17,7 @@
 				"til": "31-01-2018"
 			},
 			"lokation": "Hele Danmark",
-      "billede":"./img/dyr/daadyr.jpg",
+      "billede":"daadyr.jpg",
 			"anbefalede_produkter":[]
 		},
 		"ræv": {
@@ -27,7 +27,7 @@
 				"til": "31-01-2018"
 			},
 			"lokation": "Hele Danmark",
-      "billede":"./img/dyr/raev.jpg",
+      "billede":"raev.jpg",
 			"anbefalede_produkter":[2, 3, 4]
 		},
 		"aborre": {
@@ -37,7 +37,7 @@
 				"til": "31-12-2018"
 			},
 			"lokation": "I små søer og åer i hele Danmark",
-      "billede":"./img/dyr/aborre.jpg",
+      "billede":"aborre.jpg",
 			"anbefalede_produkter":[11, 13]
 		},
 		"laks": {
@@ -47,7 +47,7 @@
 				"til": "15-11-2018"
 			},
 			"lokation": "Jylland, særligt Skjern Å og Gudenåen",
-      "billede":"./img/dyr/laks.jpg",
+      "billede":"laks.jpg",
 			"anbefalede_produkter":[10, 12]
 		},
 		"sild": {
@@ -57,7 +57,7 @@
 				"til": "31-12-2018"
 			},
 			"lokation": "Hele Danmark, men særligt Hvide Sande",
-      "billede":"./img/dyr/sild.jpg",
+      "billede":"sild.jpg",
 			"anbefalede_produkter":[10]
 		},
 		"Andreas": {
@@ -67,7 +67,7 @@
 				"til": "31-12-2018"
 			},
 			"lokation": "Primært Østjylland, men befinder sig sommetider også i Vestjylland",
-      "billede":"./img/dyr/andreas.jpg",
+      "billede":"andreas.jpg",
 			"anbefalede_produkter":[98, 99]
 		}
 	} 

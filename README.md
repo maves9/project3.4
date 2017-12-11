@@ -23,12 +23,12 @@ Beskriv så meget som muligt i navngivningen for at undgå extra kommentaer
 exempel:
 `function calculateNumbersInArray(){}`
 
-### Filer og navngivning
+### Filer og PHP navngivning
 
 vi spliter gerne filer of i mindre moduler of at danne overblik og benytter include fra PHP til at sætte dem sammen. Før modulerne bliver lavet skal du dog sikre at have en "main module" som samler komponenterne detter illustreres med at tilføje _main til filnavne
 ```
  gallery_main.php
  gallery_dogs.php
  gallery_cats.php
- gallery_COOKIES.php
+ gallery_COOKIEEEE.php
 ```

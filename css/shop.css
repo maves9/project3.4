@@ -22,7 +22,7 @@ body {
     grid-column-gap: 40px; }
     .wrap .shop__main .shop__browse {
       display: grid;
-      grid-template-rows: 70px auto auto auto auto;
+      grid-template-rows: 70px auto auto auto auto 100%;
       grid-template-columns: 100%; }
       .wrap .shop__main .shop__browse .browse__header {
         background-color: #274047;
@@ -31,7 +31,8 @@ body {
         font-family: 'Roboto', sans-serif;
         color: #274047;
         font-size: 16px;
-        border: 1px solid #E3E3E3; }
+        border: 1px solid #E3E3E3;
+        margin-bottom: 2px; }
         .wrap .shop__main .shop__browse .browse__explorer ul {
           list-style: none; }
         .wrap .shop__main .shop__browse .browse__explorer h3 {
@@ -39,7 +40,8 @@ body {
           text-transform: uppercase;
           margin: 0;
           padding: 5px 15px;
-          font-size: 16px; }
+          font-size: 16px;
+          cursor: pointer; }
         .wrap .shop__main .shop__browse .browse__explorer .browse__explorer-extended {
           font-size: 14px;
           list-style: none; }
@@ -54,8 +56,6 @@ body {
           font-family: 'Roboto', sans-serif; }
         .wrap .shop__main .shop__browse .browse__sort .sort__label-placeholder {
           color: #E3E3E3; }
-        .wrap .shop__main .shop__browse .browse__sort .sort__price {
-          display: block; }
     .wrap .shop__main .shop__products {
       display: grid;
       grid-template-rows: 70px 40px auto auto;
@@ -189,7 +189,16 @@ body {
             display: none; }
         .wrap .shop__main .shop__products .products__display {
           grid-template-columns: 1fr;
-          padding: 0 10%; } }
+          padding: 0 10%; }
+      .wrap .shop__main .shop__browse .browse__explorer {
+        font-family: 'Roboto', sans-serif;
+        color: #274047;
+        font-size: 16px;
+        border: 0px solid #E3E3E3; }
+        .wrap .shop__main .shop__browse .browse__explorer h3 {
+          text-align: center; }
+        .wrap .shop__main .shop__browse .browse__explorer ul {
+          list-style: none; } }
 /*for superwide*/
 @media only screen and (min-width: 2048px) {
   .wrap {

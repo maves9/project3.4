@@ -63,10 +63,24 @@
 					<option>Type</option>
 				</select>
 				<h4>Pris</h4>
-				<input type="checkbox" class="sort__price" name="prissortering">0-999kr.</input>
-				<input type="checkbox" class="sort__price" name="prissortering">1.000-1.999kr.</input>
-				<input type="checkbox" class="sort__price" name="prissortering">2.000-5.000kr.</input>
-				<input type="checkbox" class="sort__price" name="prissortering">Større end 5.000kr.</input>
+				<table class="sort__price">
+				 	<tr>
+				    	<td><input type="checkbox" name="prissortering"></input></td>
+				    	<td>0-999kr.</td>				    	
+					</tr>
+					<tr>
+				    	<td><input type="checkbox" name="prissortering"></input></td>
+				    	<td>1.000-1.999kr.</td> 
+					</tr>
+				 	<tr>
+				    	<td><input type="checkbox" name="prissortering"></input></td>
+				    	<td>2.000-5.000kr.</td>				    	
+					</tr>
+					<tr>
+				    	<td><input type="checkbox" name="prissortering"></input></td>
+				    	<td>Større end 5.000kr..</td> 
+					</tr>
+				</table>
 			</section>
 		</section>
 		<article class="shop__products">
@@ -136,40 +150,19 @@
 			<p>google reeeeeeeeeeeeeveieieieiws</p>
 		</section>
 	</main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </article>
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	
+	$( document ).ready(function() {
+    	$('.browse__explorer').children('h3').click( function() {
+    		$(this).siblings('ul').slideToggle(200);
+    	});
+	});
+
+
+
+</script>

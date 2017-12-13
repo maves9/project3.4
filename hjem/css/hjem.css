@@ -1,0 +1,431 @@
+@charset "UTF-8";
+@import url(header_footer-media.css);
+@import url(hjem-media.css);
+* {
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing--moz-box-sizing: border-box;
+  -webkit-box-sizing--moz-box-sizing-box-sizing: border-box;
+}
+
+img {
+  -webkit-box-sizing: content-box;
+  -webkit-box-sizing--moz-box-sizing: content-box;
+  -webkit-box-sizing--moz-box-sizing-box-sizing: content-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Gives the header 2 background colors */
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#516043), color-stop(50%, #516043), color-stop(50%, #000000), color-stop(50%, #899A79), to(#899A79));
+  background: linear-gradient(to bottom, #516043 0%, #516043 50%, #000000 50%, #899A79 50%, #899A79 100%);
+  color: #fff;
+}
+
+/* Target all direct children */
+header > * {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+header section {
+  height: 70px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header section nav {
+  text-align: right;
+  justify-self: end;
+  line-height: 70px;
+}
+
+/* TOP NAVIGATION */
+#title {
+  margin-left: 50px;
+  font-family: 'Spectral SC', serif;
+  color: #899A79;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+#header__top--nav ul li {
+  display: inline;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+#header__top--nav ul li:last-child {
+  padding: 8px 50px 8px 10px;
+}
+
+#header__top--nav .header__top--icon {
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#nak-btn {
+  background: #B58B2D;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+#header__top #mobil_menu {
+  display: none;
+}
+
+/* BUTTOM NAVIGATION */
+#logo {
+  margin-left: 50px;
+  position: relative;
+  z-index: 2;
+  width: 180px;
+  margin-top: -10px;
+}
+
+#header__bottom--nav ul li {
+  display: inline;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#header__bottom--nav ul li:last-child {
+  padding: 8px 50px;
+}
+
+footer {
+  font-size: 14px;
+  color: #899A79;
+  background-color: #516043;
+  background: linear-gradient(to bottom, #899A79 0%, #899A79 140px, #000000 140px, #516043 140px, #516043 100%);
+}
+
+footer h3 {
+  font-weight: 700;
+}
+
+footer article {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+#footer__top {
+  display: grid;
+  grid-template-columns: auto 66px;
+  height: 140px;
+}
+
+#footer__top img {
+  height: 100px;
+  margin-top: 41px;
+}
+
+#footer__bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto;
+  grid-template-rows: auto 24px;
+  grid-column-gap: 40px;
+  padding: 50px 0px 26px 0px;
+}
+
+#footer__åbningstider {
+  display: grid;
+  grid-template-columns: 150px 100px;
+  grid-template-areas: "dage tider";
+  width: 250px;
+}
+
+.footer_åbningstider--dage {
+  grid-area: dage;
+}
+
+.footer_åbningstider--tider {
+  grid-area: tider;
+  justify-items: end;
+}
+
+#footer__bottom--social {
+  text-align: right;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  margin-top: -24px;
+}
+
+#footer__bottom--social img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+  background: #363636;
+}
+
+main {
+  max-width: 1020px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  z-index: 0;
+  /* YouTube Video Responsive: https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */
+}
+
+main #main__video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+main #main__video:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+main #main__video #main__video--iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+main #main__video .main__webshop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+main #main__video .main__webshop section {
+  position: relative;
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+main #main__video .main__webshop .main__webshop--outdoor {
+  background-image: url("../img/outdoor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main #main__video .main__webshop .main__webshop--outdoor:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(181, 139, 45, 0.5);
+}
+
+main #main__video .main__webshop .main__webshop--outdoor:hover:before {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(181, 139, 45, 0);
+}
+
+main #main__video .main__webshop .main__webshop--fiskeri {
+  background-image: url("../img/fiskeri.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main #main__video .main__webshop .main__webshop--fiskeri:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(39, 64, 71, 0.5);
+}
+
+main #main__video .main__webshop .main__webshop--fiskeri:hover:before {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(181, 139, 45, 0);
+}
+
+main #main__video .main__webshop .main__webshop--jagt {
+  background-image: url("../img/jagt.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main #main__video .main__webshop .main__webshop--jagt:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(81, 96, 67, 0.5);
+}
+
+main #main__video .main__webshop .main__webshop--jagt:hover:before {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(181, 139, 45, 0);
+}
+
+#main__events {
+  padding: 50px 50px;
+  background: #E3E3E3;
+  color: white;
+}
+
+#main__events > section {
+  display: grid;
+  grid-template-columns: 280px auto 140px;
+  grid-template-rows: 180px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#main__events > section:last-child {
+  margin-bottom: 0px;
+}
+
+#main__events > section .main__events--img {
+  width: 280px;
+  height: 180px;
+}
+
+#main__events > section .main__events--content {
+  padding-left: 20px;
+}
+
+#main__events > section .main__events--content h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#main__events > section .main__events--content a {
+  color: white;
+}
+
+#main__events > section .main__events--date {
+  text-align: right;
+}
+
+#main__events > section .main__events--date p:last-child {
+  padding-bottom: 10px;
+  border-bottom: white solid 1px;
+}
+
+#main__events--nak {
+  background: #516043;
+}
+
+#main__events--fisketur {
+  background: #274047;
+}
+
+#main__social {
+  padding: 50px 50px 50px 50px;
+}
+
+#main__social section {
+  display: inline-block;
+  max-width: 435px;
+  height: 430px;
+  vertical-align: top;
+}
+
+#main__social--youtube {
+  background: #274047;
+  color: white;
+  width: 431px;
+  margin-left: 35px;
+  padding: 50px;
+}
+
+#main__social--youtube h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#main__social--youtube p {
+  margin-bottom: 40px;
+}

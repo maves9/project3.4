@@ -1,0 +1,60 @@
+@media screen and (max-width: 1020px) {
+  #main__social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    #main__events>section {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+
+      justify-items: start;
+      align-items: center;
+
+      padding: 20px;
+    }
+
+    #main__events>section .main__events--img {
+      display: none;
+    }
+
+    #main__events>section .main__events--content {
+      padding-left: 0px;
+    }
+
+
+    #main__events>section .main__events--date {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+      #main__events>section .main__events--date p:last-child {
+        padding-bottom: 10px;
+        border-bottom: none;
+      }
+
+    main #main__video {
+    }
+
+    main #main__video #main__video--iframe {
+    }
+
+    main #main__video .main__webshop {
+      position: relative;
+      bottom: 100px;
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 80px 80px 80px;
+      grid-row-gap: 20px;
+      padding-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+  #main__events {
+    padding: 50px 0px;
+  }
+}

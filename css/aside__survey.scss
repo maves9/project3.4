@@ -1,41 +1,23 @@
-@charset "utf-8";
-/* CSS Document */
 
-body {
-    font-family: helvetica, arial, verdana, sans-serif;
-}
-*{
-  margin: 0;
-  padding: 0;
-}
-
-input {
-	font-size: 2.4em;
-	background-color: transparent;
-	text-align: center;
-	border-width: 0;
-	width: 100%;
-	margin: 0 0 .1em 0;
-	color: #fff;
-}
 #survey__email-form{
   padding: 0;
   margin: 0;
+
+    p{margin-top: 10px}
+
+    input{
+      font-size: 1em;
+      background-color: rgba(0, 0, 0, 0.2);
+      text-align: left;
+      padding: 5px 10px;
+      border-width: 0;
+      width: calc(100% - 20px);
+      margin: 0 0 .1em 0;
+      color: #b48b2d;
+      border-radius: 8px;
+    }
 }
-#survey__email-form p{
-  margin-top: 10px
-}
-#survey__email-form input{
-  font-size: 1em;
-  background-color: rgba(0, 0, 0, 0.2);
-  text-align: left;
-  padding: 5px 10px;
-  border-width: 0;
-  width: calc(100% - 20px);
-  margin: 0 0 .1em 0;
-  color: #b48b2d;
-  border-radius: 8px;
-}
+
 .survey_options{
   text-align: center;
   display: block;
@@ -54,10 +36,16 @@ input {
   border-radius: 8px;
   cursor: pointer;
 }
-.survey__result-btn {
-  margin: 0 15px
-}
+ a.survey__result-btn {
+   margin: 10px 10px 0 0;
+   text-decoration: none;
+   color: #2b2b2b;
+   text-align: center;
+   display: inline-block;
+ }
+
 .section-survey{
+  min-height: 500px;
   background-image: url('../img/kompas.jpg');
   background-repeat: no-repeat;
   background-position: top;
@@ -71,6 +59,18 @@ input {
   vertical-align: middle;
   overflow: hidden;
   position: relative;
+    .aside__survey__close{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 20px;
+      height: 20px;
+      fill: #b58b2d;
+      background: #264046;
+      border-radius: 100%;
+      padding: 2px;
+      cursor: pointer;
+    }
 }
 .box {
 	/* basics */
@@ -91,22 +91,6 @@ input {
 }
 .main__animal-list{
   cursor: pointer;
-}
-main img{
-  width: 400px;
-  margin: 0 auto;
-  display: block;
-}
-main{
-  width: 800px;
-  margin: 0 auto;
-}
-aside article{
-  display: inline-block;
-  width: 200px
-}
-article img{
-  width: 100%
 }
 
 .aside__survey{
@@ -143,6 +127,7 @@ article img{
   animation-duration: 1s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
+  animation-delay: .3s;
 }
 .survey__checkbox--slide-down{
   animation-name: slide-down;
@@ -217,22 +202,12 @@ input[type="radio"]:checked label::after{ color: #fff}
   position: absolute;
   visibility: hidden;
 }
-.aside__survey__close{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 20px;
-  height: 20px;
-  fill: #b58b2d;
-  background: #264046;
-  border-radius: 100%;
-  padding: 2px;
-}
+
 @keyframes slide-down {
-    from {opacity: 1; height: 250px}
-    to {opacity: 0;  height: 0;}
+    from {opacity: 1; transform: translateY(0); height: auto;}
+    to {opacity: 0;  transform: translateY(-100%); height: 0;}
 }
 @keyframes slide-up {
-    from {opacity: 0; height: 0;}
-    to {opacity: 1; height: 250px;}
+    from {opacity: 0; transform: translateY(100%); height: auto;}
+    to {opacity: 1; transform: translateY(0); height: auto;}
 }

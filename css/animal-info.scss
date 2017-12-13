@@ -1,0 +1,72 @@
+
+.animal-info__main{
+
+  &::-webkit-scrollbar{
+  	width: 5px;
+    height: 5px;
+  	opacity: 0;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb{
+  	border-radius: 10px;
+  	background-color: #ccc;
+  }
+  border: solid 5px #333;
+  max-width: 700px;
+  position: absolute;
+  margin: auto;
+  background: #333;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .main__animal-list{
+
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+    li{
+      padding-top: 10px;
+      display: inline-block;
+      width: 120px;
+      transition: all ease .4s;
+      text-align: center;
+      height: 60px;
+      background: cadetblue;
+    }
+    :hover{
+      background: #333;
+    }
+    &::-webkit-scrollbar{
+      width: 5px;
+      height: 5px;
+      opacity: 0;
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      background-color: #ccc;
+    }
+
+  }
+  .main__animal-list__description{
+    .main__animal-list__description__article{
+      img{
+        max-width: 300px;
+        margin: auto;
+        display: inline-block;
+      }
+
+    }
+
+  }
+}

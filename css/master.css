@@ -278,3 +278,9 @@ input[checked="checked"] ~ .question-box {
     display: inline-block; }
 
 /*# sourceMappingURL=master.css.map */
+
+/*shitkode til blink a fake radiobuttons i survey*/
+.question-box__answer:active .survey__radio-btn {
+  background-color: #b58b2d;
+}
+

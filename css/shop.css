@@ -130,12 +130,14 @@ body {
         .wrap .shop__main .shop__products .products__display .product__view {
           display: grid;
           grid-row-gap: 40px;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-column: span 3;
           grid-template-columns: 1fr 1fr;
-          padding: 20px; }
+          padding: 20px;
+          border: 1px solid #E3E3E3; }
           .wrap .shop__main .shop__products .products__display .product__view .view__descrip {
             background-color: #E3E3E3;
-            padding: 20px; }
+            padding: 20px;
+            grid-column: 2; }
             .wrap .shop__main .shop__products .products__display .product__view .view__descrip .product__antal {
               background-color: #b58b2d;
               padding: 15px;
@@ -157,8 +159,25 @@ body {
           .wrap .shop__main .shop__products .products__display .product__view .product__fulldescrip {
             grid-column: 1/3;
             background-color: #E3E3E3;
-            padding: 20px;
-            color: #274047; }
+            padding: 20px; }
+            .wrap .shop__main .shop__products .products__display .product__view .product__fulldescrip p {
+              color: #274047; }
+        .wrap .shop__main .shop__products .products__display .products__back-btn {
+          padding-top: 20px; }
+          .wrap .shop__main .shop__products .products__display .products__back-btn .products__back-btn--descrip,
+          .wrap .shop__main .shop__products .products__display .products__back-btn .products__back-btn--arrow {
+            background-color: #274047;
+            padding: 10px;
+            display: inline-block;
+            vertical-align: top; }
+          .wrap .shop__main .shop__products .products__display .products__back-btn .products__back-btn--descrip {
+            font-size: 16px;
+            color: #fff;
+            padding: 12px 10px;
+            height: 20px; }
+          .wrap .shop__main .shop__products .products__display .products__back-btn .products__back-btn--arrow img {
+            height: 20px;
+            -webkit-transform: rotate(180deg); }
 
 /*for tablet*/
 @media only screen and (max-width: 1024px) {

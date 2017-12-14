@@ -6,7 +6,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_full -->
 
 <header>
   <section id="header__top">
-    <p id="title">Jagt & Fiskerimagasinet</p>
+    <h1 id="title">Jagt & Fiskerimagasinet</h1>
 
     <nav id="header__top--nav">
       <ul>

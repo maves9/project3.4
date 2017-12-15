@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Spectral+SC");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #363636; }
+
+.omos__wrap {
+  margin: 0px 150px;
+  display: grid; }
+  .omos__wrap p {
+    font-family: 'Roboto', sans-serif;
+    color: white; }
+  .omos__wrap h3 {
+    font-family: 'Spectral SC', serif;
+    color: white;
+    font-size: 26px; }
+  .omos__wrap div {
+    border: 0px solid black; }
+
+.omos-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 8fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  min-height: 500px;
+  background-color: #fff; }
+  .omos-header .headerimg-responsive {
+    background-image: url("../../img/fiskeri.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    grid-row: 1/6;
+    grid-column: 1/6;
+    opacity: 0.7;
+    z-index: 0; }
+  .omos-header .content {
+    grid-row: 2/4;
+    grid-column: 3;
+    padding: 50px;
+    background-color: #899a79;
+    z-index: 5; }
+  .omos-header .header-lineout {
+    grid-row: 3;
+    grid-column: 4;
+    border-top: 10px solid #fff;
+    border-right: 10px solid #fff;
+    z-index: 4; }
+  .omos-header .header-linedown {
+    grid-row: 4;
+    grid-column: 4;
+    z-index: 4;
+    border-right: 10px solid #fff; }
+
+.afdelinger .stickfig {
+  width: 200px;
+  vertical-align: bottom;
+  position: relative; }
+.afdelinger .left {
+  left: 200px; }
+.afdelinger .right {
+  right: 200px; }
+.afdelinger .outdoor, .afdelinger .fiskeri, .afdelinger .jagt {
+  display: grid;
+  grid-template-columns: 1fr 3fr 8fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr; }
+  .afdelinger .outdoor .content, .afdelinger .fiskeri .content, .afdelinger .jagt .content {
+    grid-column: 3;
+    grid-row: 2; }
+.afdelinger .outdoor {
+  background-color: #b58b2d; }
+  .afdelinger .outdoor .line-one {
+    grid-row: 1;
+    grid-column: 4;
+    border-right: 10px solid #fff; }
+  .afdelinger .outdoor .line-two {
+    grid-row: 2;
+    grid-column: 4;
+    border-right: 10px solid #fff;
+    text-align: center; }
+    .afdelinger .outdoor .line-two img {
+      display: inline-block;
+      position: relative;
+      width: 60%;
+      opacity: 0.5; }
+  .afdelinger .outdoor .line-three {
+    grid-row: 3;
+    grid-column: 4;
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid #fff; }
+  .afdelinger .outdoor .line-four {
+    grid-row: 3;
+    grid-column: 3;
+    border-bottom: 10px solid #fff; }
+  .afdelinger .outdoor .line-five {
+    grid-row: 3;
+    grid-column: 2;
+    border-bottom: 10px solid #fff; }
+.afdelinger .fiskeri {
+  background-color: #274047; }
+  .afdelinger .fiskeri .line-one {
+    grid-row: 1;
+    grid-column: 2;
+    border-left: 10px solid #fff; }
+  .afdelinger .fiskeri .line-two {
+    grid-row: 2;
+    grid-column: 2;
+    border-left: 10px solid #fff;
+    text-align: center; }
+    .afdelinger .fiskeri .line-two img {
+      width: 60%;
+      opacity: 0.5; }
+  .afdelinger .fiskeri .line-three {
+    grid-row: 3;
+    grid-column: 2;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid #fff; }
+  .afdelinger .fiskeri .line-four {
+    grid-row: 3;
+    grid-column: 3;
+    border-bottom: 10px solid #fff; }
+  .afdelinger .fiskeri .line-five {
+    grid-row: 3;
+    grid-column: 4;
+    border-bottom: 10px solid #fff; }
+.afdelinger .jagt {
+  background-color: #516043; }
+  .afdelinger .jagt .line-one {
+    grid-row: 1;
+    grid-column: 4;
+    border-right: 10px solid #fff; }
+  .afdelinger .jagt .line-two {
+    grid-row: 2;
+    grid-column: 4;
+    border-right: 10px solid #fff; }
+    .afdelinger .jagt .line-two img {
+      width: 60%;
+      opacity: 0.5; }
+  .afdelinger .jagt .line-three {
+    grid-row: 3;
+    grid-column: 4;
+    border-right: 10px solid #fff; }
+  .afdelinger .jagt .line-five {
+    grid-row: 3;
+    grid-column: 2; }
+
+.omos-google {
+  display: grid;
+  grid-template-columns: 1fr 14fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr 4fr;
+  background-color: #fff;
+  min-height: 700px; }
+  .omos-google .maps {
+    grid-column: 2;
+    grid-row: 2; }
+    .omos-google .maps iframe {
+      width: 100%;
+      height: 100%; }
+  .omos-google .reviews {
+    border-top: 1px solid #ddd;
+    grid-column: 2;
+    grid-row: 4; }
+    .omos-google .reviews p {
+      color: #000; }
+
+@media only screen and (max-width: 760px) {
+  body {
+    background-color: lightblue; }
+
+  .omos__wrap {
+    margin: 0px 0px;
+    text-align: center; }
+    .omos__wrap  .omos-header {
+      background: #eee;
+      grid-template-rows: 1fr 1fr 2.2fr 1fr; }
+      .omos__wrap  .omos-header .headerimg-responsive {
+        background-image: url("../../img/fiskeri.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        grid-row: 1/3;
+        grid-column: 1/6;
+        opacity: 0.7; }
+      .omos__wrap  .omos-header .content {
+        grid-row: 3/5;
+        grid-column: 1/6;
+        padding: 0px 50px;
+        text-align: center;
+        padding: 50px 0; }
+    .omos__wrap .outdoor, .omos__wrap .fiskeri, .omos__wrap .jagt {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 0.5fr;
+      text-align: center; }
+      .omos__wrap .outdoor .left, .omos__wrap .fiskeri .left, .omos__wrap .jagt .left {
+        left: 0px; }
+      .omos__wrap .outdoor .content, .omos__wrap .fiskeri .content, .omos__wrap .jagt .content {
+        grid-column: 1/6;
+        grid-row: 2;
+        padding: 0px 30px; }
+      .omos__wrap .outdoor .employee, .omos__wrap .fiskeri .employee, .omos__wrap .jagt .employee {
+        text-align: center;
+        grid-column: 1/6;
+        grid-row: 1;
+        padding-top: 50px; }
+        .omos__wrap .outdoor .employee img, .omos__wrap .fiskeri .employee img, .omos__wrap .jagt .employee img {
+          width: 150px; }
+      .omos__wrap .outdoor .stickfig, .omos__wrap .fiskeri .stickfig, .omos__wrap .jagt .stickfig {
+        grid-column: 1/6;
+        grid-row: 3;
+        padding-bottom: 50px; }
+      .omos__wrap .outdoor .line-one, .omos__wrap .outdoor .line-two, .omos__wrap .outdoor .line-three, .omos__wrap .outdoor .line-four, .omos__wrap .outdoor .line-five, .omos__wrap .fiskeri .line-one, .omos__wrap .fiskeri .line-two, .omos__wrap .fiskeri .line-three, .omos__wrap .fiskeri .line-four, .omos__wrap .fiskeri .line-five, .omos__wrap .jagt .line-one, .omos__wrap .jagt .line-two, .omos__wrap .jagt .line-three, .omos__wrap .jagt .line-four, .omos__wrap .jagt .line-five {
+        border-bottom: 0px solid #fff;
+        border-right: 0px solid #fff;
+        border-left: 0px solid #fff; } }
+
+/*# sourceMappingURL=style.css.map */

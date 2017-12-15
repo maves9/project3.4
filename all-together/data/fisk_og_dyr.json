@@ -1,0 +1,78 @@
+{
+	"dyr": [{
+			"navn": "kronspidshjort",
+			"beskrivelse": "Spidshjort er et navn, som udspringer af, hvorledes geviret normalt ser ud på en sådan hjort. Derfor opfattes spidshjort af mange som en hjort, hvis gevir består af to ugrenede spidser. Men spidshjort som begreb i juridisk forstand dækker over en hjort i sit andet leveår",
+			"jagt_season": {
+				"fra": "01-09-2017",
+				"til": "31-01-2018"
+			},
+			"lokation": "Vestjylland og  Djursland",
+			"billede": "spidshjort.jpg",
+			"anbefalede_produkter": [1, 2, 3, 4],
+			"svg_ikon": "hjort1.svg"
+		},
+		{
+			"navn": "dådyr",
+			"beskrivelse": "Dådyr (Dama dama) er en drøvtygger, der tilhører hjortefamilien. Dådyret ligner på mange punkter kronhjorten, men det er mere nøjsomt og mindre sky. Dådyret er derfor nemt at tæmme og findes i mange dyreparker, hvor det er muligt at komme helt tæt på det. I de senere år er der også opstået dådyrfarme, hvor dyrene avles til slagtning.",
+			"jagt_season": {
+				"fra": "01-10-2017",
+				"til": "31-01-2018"
+			},
+			"lokation": "Hele Danmark",
+			"billede": "daadyr.jpg",
+			"anbefalede_produkter": [],
+			"svg_ikon": "daadyr.svg"
+		},
+		{
+			"navn": "ræv",
+			"beskrivelse": "Ræven, er et mellemstort rovdyr i hundefamilien og den mest udbredte art blandt rævene. Dens udseende kan forvekles med den lidt mindre, og meget mere sjældne polarræv. Ræven er udbredt i det meste af Europa, Nordafrika, Asien og Nordamerika. I Danmark er den kendt fra hele landet, hvor den er særlig almindelig i det åbne kulturlandskab, der veksler mellem skov og mark.",
+			"jagt_season": {
+				"fra": "01-09-2017",
+				"til": "31-01-2018"
+			},
+			"lokation": "Hele Danmark",
+			"billede": "raev.jpg",
+			"anbefalede_produkter": [2, 3, 4],
+			"svg_ikon": "fox1.svg"
+		}
+	],
+	"fisk": [
+
+		{
+			"navn": "aborre",
+			"beskrivelse": "Næsten alle kender aborren og den er da også en af de mest almindelige danske fisk, hvilket gør den til en yderst fanget art af de danske lystfiskere. Aborren bliver ofte omkring 25-30 centimeter lange og hvis den har spist godt, kan den veje over to kilo.",
+			"jagt_season": {
+				"fra": "01-01-2017",
+				"til": "31-12-2018"
+			},
+			"lokation": "I små søer og åer i hele Danmark",
+			"billede": "aborre.jpg",
+			"anbefalede_produkter": [11, 13],
+			"svg_ikon": "aborre.svg"
+		},
+		{
+			"navn": "laks",
+			"beskrivelse": "Laksen er kendt for sin helt egen farve, der da også er så særpræget, at termen ‘laksefarvet’ er skabt. Laksen ånder ved hjælp af gæller, som det kendes fra de fleste andre fisk. Laks lever typisk i stimer, når den er i havet. Laksen lever fortrinsvis af mindre fisk og insektlarver.",
+			"jagt_season": {
+				"fra": "16-01-2017",
+				"til": "15-11-2018"
+			},
+			"lokation": "Jylland, særligt Skjern Å og Gudenåen",
+			"billede": "laks.jpg",
+			"anbefalede_produkter": [10, 12],
+			"svg_ikon": "laks.svg"
+		},
+		{
+			"navn": "sild",
+			"beskrivelse": "Silden er nok en af de mest populære fisk herhjemme. Enhver dansker ville kunne nikke genkendende til silden, da den er meget udbredt som spisefisk herhjemme. Det mindste fangstmål er 18-20 cm, hvilket afhænger af hvilket farvand der er snakke om. Normalt ses de dog op til hele 35 cm lange.",
+			"jagt_season": {
+				"fra": "01-01-2017",
+				"til": "31-12-2018"
+			},
+			"lokation": "Hele Danmark, men særligt Hvide Sande",
+			"billede": "sild.jpg",
+			"anbefalede_produkter": [10],
+			"svg_ikon": "sild.svg"
+		}
+	]
+}

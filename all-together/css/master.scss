@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+a{ text-decoration: none; color: #fff; &:hover{ opacity: 0.5 } }
+
+@import "parts/normalize.css";
+
+@import "parts/shop.scss";
+
+@import "parts/omos.css";
+
+@import "parts/kontakt.css";
+
+@import "parts/header.sass";
+
+@import "parts/footer.css";
+
+@import "parts/aside__survey.css";
+
+@import "parts/animal-info.scss";
+
+@import "parts/hjem.sass";

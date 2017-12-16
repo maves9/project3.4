@@ -45,9 +45,17 @@ footer article {
   grid-area: dage;
 }
 
+.footer_åbningstider--dage li {
+  list-style: none;
+}
+
 .footer_åbningstider--tider {
   grid-area: tider;
   justify-items: end;
+}
+
+.footer__åbningstider--tider li {
+  list-style: none;
 }
 
 #footer__bottom--social {

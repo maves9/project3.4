@@ -34,6 +34,18 @@
 			"billede": "raev.jpg",
 			"anbefalede_produkter": [2, 3, 4],
 			"svg_ikon": "fox1.svg"
+		},
+		{
+			"navn": "kronspidshjort",
+			"beskrivelse": "Spidshjort er et navn, som udspringer af, hvorledes geviret normalt ser ud på en sådan hjort. Derfor opfattes spidshjort af mange som en hjort, hvis gevir består af to ugrenede spidser. Men spidshjort som begreb i juridisk forstand dækker over en hjort i sit andet leveår",
+			"jagt_season": {
+				"fra": "01-09-2017",
+				"til": "31-01-2018"
+			},
+			"lokation": "Vestjylland og  Djursland",
+			"billede": "spidshjort.jpg",
+			"anbefalede_produkter": [1, 2, 3, 4],
+			"svg_ikon": "hjort1.svg"
 		}
 	],
 	"fisk": [
@@ -73,6 +85,18 @@
 			"billede": "sild.jpg",
 			"anbefalede_produkter": [10],
 			"svg_ikon": "sild.svg"
+		},
+				{
+			"navn": "aborre",
+			"beskrivelse": "Næsten alle kender aborren og den er da også en af de mest almindelige danske fisk, hvilket gør den til en yderst fanget art af de danske lystfiskere. Aborren bliver ofte omkring 25-30 centimeter lange og hvis den har spist godt, kan den veje over to kilo.",
+			"jagt_season": {
+				"fra": "01-01-2017",
+				"til": "31-12-2018"
+			},
+			"lokation": "I små søer og åer i hele Danmark",
+			"billede": "aborre.jpg",
+			"anbefalede_produkter": [11, 13],
+			"svg_ikon": "aborre.svg"
 		}
 	]
 }

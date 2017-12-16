@@ -175,3 +175,12 @@ function getAnimal(str) {
       req.send();
     });
   }
+
+
+
+
+/// tilføjer lige noget her Martin
+//go back
+function goBack() {
+    window.history.back();
+}

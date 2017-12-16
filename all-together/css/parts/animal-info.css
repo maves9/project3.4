@@ -1,6 +1,6 @@
 .animal-info__body {
   box-sizing: border-box;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/animal-info_background.jpg") center; }
+ }
   .animal-info__body .animal-list__welcome__section {
     width: 100%; }
   .animal-info__body #animalInfor-headline {

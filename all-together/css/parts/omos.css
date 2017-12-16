@@ -5,7 +5,7 @@ body {
   background-color: #363636; }
 
 .omos__wrap {
-  margin: 0px 150px;
+
   display: grid; }
   .omos__wrap p {
     font-family: 'Roboto', sans-serif;
@@ -144,21 +144,15 @@ body {
 .omos-google {
   display: grid;
   grid-template-columns: 1fr 14fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr 4fr;
+  grid-template-rows: 1fr 10fr 1fr;
   background-color: #fff;
-  min-height: 700px; }
+  min-height: 450px; }
   .omos-google .maps {
     grid-column: 2;
     grid-row: 2; }
     .omos-google .maps iframe {
       width: 100%;
       height: 100%; }
-  .omos-google .reviews {
-    border-top: 1px solid #ddd;
-    grid-column: 2;
-    grid-row: 4; }
-    .omos-google .reviews p {
-      color: #000; }
 
 @media only screen and (max-width: 760px) {
   body {

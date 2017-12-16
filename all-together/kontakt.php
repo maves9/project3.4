@@ -9,11 +9,13 @@ $fields = isset($_SESSION["fields"]) ? $_SESSION["fields"] : [];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Kontakt</title>
+    <title>Kontakt - Jagt &amp; Fiskerimagasinet Aarhus</title>
     <meta name="description" content="Skriv til os eller find kontaktinformationer og rutevejledning til Jagt og Fiskerimagasinet Aarhus her">
     <meta name="keywords" content="jagt og fiskerimagasinet aarhus, jagt, fiskeri, outdoor, aarhus, sønder alle, 8000, kontakt, adresse, telefon, mail, kontaktformular, skriv til">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/icon/favicon.png">
+
     <link href="css/master.css" rel="stylesheet">
 </head>
 

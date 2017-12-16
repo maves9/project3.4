@@ -51,3 +51,5 @@
     </section>
   </article>
 </footer>
+
+<script src="js/mobilmenu.js"></script>

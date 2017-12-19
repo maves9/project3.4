@@ -188,7 +188,7 @@ function openSurvey() {
 
             <div class="question-result__animation">
               <p>Du kan godt lide at sidde ude i naturen lidt i skjul og iagttage dyrene. Du har intet imod at stå tidligt op og tage ud at jage et par timer inden arbejdet kalder. Du er en rolig og opmærksom person, der bruger tiden i naturen til at filosofere over hverdagen.</p>
-              <p>Har du brug for råd og vejledning, kan du kontakte vores jagtekspert <a href="#">Frederik<a></p>
+              <p>Har du brug for råd og vejledning, kan du kontakte vores jagtekspert <a href="om.php">Frederik<a></p>
               <a class="survey__result-btn" href="shop_main.php">Gå til webshoppens jægerafdeling</a>
               <button class="survey__result-btn">Del dit resultat på facebook</button>
             </div>`;
@@ -201,7 +201,7 @@ function openSurvey() {
 
             <div class="question-result__animation">
               <p>Du kan godt lide at være tæt på vandet, enten i vandkanten eller i en båd. Tålmodighed er en dyd, som du i den grad besidder. Desuden er du god til at bruge dine hænder, særligt når det gælder fluebinding. </p>
-              <p>Har du brug for råd og vejledning, kan du kontakte vores fiskeriekspert: <a href="#">Mikael</a></p>
+              <p>Har du brug for råd og vejledning, kan du kontakte vores fiskeriekspert <a href="om.php">Mikael</a></p>
               <a class="survey__result-btn" href="shop_main.php">Gå til webshoppens fiskeriafdeling</a>
               <button class="survey__result-btn">Del dit resultat på facebook</button>
             <div>`;
@@ -214,7 +214,7 @@ function openSurvey() {
 
             <div class="question-result__animation">
               <p>Du elsker at være i naturen på alle tider af døgnet og gerne flere dage af gangen. Med et par solide vandresko og en pakke rygsæk er du klar til at opleve naturen på egen hånd. Som person kan du godt lide at prøve grænser af, og er ikke bange for nye udfordringer.</p>
-              <p>Har du brug for råd og vejledning, kan du kontakte vores outdooransvarlige <a href="#">Helle<a></p>
+              <p>Har du brug for råd og vejledning, kan du kontakte vores outdooransvarlige <a href="om.php">Helle<a></p>
               <a class="survey__result-btn" href="shop_main.php">Gå til webshoppens outdoorafdeling</a>
               <button class="survey__result-btn">Del dit resultat på facebook</button>
             </div>`;

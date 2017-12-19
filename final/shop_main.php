@@ -36,11 +36,8 @@
 
 			<?php
 				require_once('php/data_classes.php');
-
 				$products = new ProductObjectData;
-
 				$products_arr = $products->get_products_array();
-
 				if ($products_arr !== null) {
 				//Loops through products_arr - Jumps back and forth between HTML and PHP to post product data
 				  foreach ($products_arr as $product_found) {

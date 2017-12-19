@@ -17,7 +17,6 @@
 
     <figure class="animal-info__top">
       <a href="index.php"><img src="img/logo-dark-bg.svg" alt="Jagt & Fiskerimagasinet"></a>
-      <button onclick="goBack()">Tilbage til siden</button>
     </figure>
 
 

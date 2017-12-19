@@ -1,0 +1,120 @@
+@media screen and (max-width: 850px) {
+/* Header */
+  #title, #header__top--nav, #header__bottom--nav {
+    display: none;
+  }
+
+  #header__bottom {
+  	display: grid;
+  	grid-template-columns: 100%;
+
+    justify-items: center;
+  }
+
+  #header__bottom #logo {
+    margin-top: -80px;
+    margin-left: 0px;
+    width: 200px;
+    transition: 500ms;
+    z-index: 9;
+  }
+
+
+  header #header__top {
+    display: grid;
+  	grid-template-columns: 100%;
+
+    justify-items: end;
+    align-items: center;
+  }
+
+  header #header__top #mobil_menu {
+    display: inline-block;
+    width: 40px;
+    margin-right: 20px;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 710px) {
+  footer #footer__bottom {
+    display: block;
+    text-align: center;
+    max-width: 340px;
+  }
+
+  footer #footer__åbningstider {
+    display: grid;
+  	grid-template-columns: 150px 100px;
+  	grid-template-areas: "dage tider";
+  	width: 250px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  footer .footer_åbningstider--dage {
+    grid-area: dage;
+  }
+
+
+  footer .footer_åbningstider--tider {
+    grid-area: tider;
+  	justify-items: end;
+  }
+
+  footer #footer__bottom--social {
+    text-align: center;
+  	margin-top: 30px;
+  }
+
+  footer h3 {
+    margin-top: 20px;
+  }
+
+}
+/*mobilmenu*/
+#mySidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    right: 0;
+    background-color: #516043;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 180px;
+    text-align:center;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+#mySidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+
+}
+
+#mySidenav a:hover{
+    color: #f1f1f1;
+}
+
+#mySidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  #mySidenav {padding-top: 80px;}
+  #mySidenav a {font-size: 18px;}
+  #header__bottom #logo {
+    width: 100px;
+    transition: 500ms;
+  }
+}

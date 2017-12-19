@@ -1,0 +1,204 @@
+
+$dark-grey: #363636
+$light-grey: #E3E3E3
+$dark-green: #516043
+$light-green: #899A79
+$blue: #274047
+$yellow: #B58B2D
+
+._2lqg
+  overflow: hidden
+
+body
+  font-family: 'Roboto', sans-serif
+  line-height: 1.3
+  background: $dark-grey
+
+main
+  max-width: 1020px
+  margin: 0 auto
+  background: white
+  position: relative
+  z-index: 0
+
+  /* YouTube Video Responsive: https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */
+  #main__video
+    position: relative
+    width: 100%
+    height: 0
+    padding-bottom: 56.25%
+
+    &:before
+      position: absolute
+      content: ""
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      display: block
+      background-color: rgba(255,255,255,0.4)
+
+    #main__video--iframe
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      z-index: -1
+
+    .main__webshop
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+
+      display: grid
+      grid-template-columns: auto auto auto
+
+      justify-items: center
+      align-items: center
+
+      section
+        position: relative
+        width: 70%
+        height: 80px
+        text-align: center
+        line-height: 80px
+        color: white
+        font-family: 'Julius Sans One', sans-serif
+
+      .main__webshop--outdoor
+        background-image: url("../img/outdoor.jpg")
+        background-size: cover
+        background-position: center
+
+        &:before
+          position: absolute
+          content: ""
+          top: 0
+          left: 0
+          width: 100%
+          height: 100%
+          display: block
+          z-index: 0
+          background-color: rgba(181,139,45,0.5)
+
+        &:hover:before
+          opacity: 1
+          cursor: pointer
+          background-color: rgba(181,139,45,0)
+
+      .main__webshop--fiskeri
+          background-image: url("../img/fiskeri.jpg")
+          background-size: cover
+          background-position: center
+
+          &:before
+            position: absolute
+            content: ""
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            display: block
+            z-index: 0
+            background-color: rgba(39,64,71,0.5)
+
+          &:hover:before
+            opacity: 1
+            cursor: pointer
+            background-color: rgba(181,139,45,0)
+
+      .main__webshop--jagt
+          background-image: url("../img/jagt.jpg")
+          background-size: cover
+          background-position: center
+
+          &:before
+            position: absolute
+            content: ""
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            display: block
+            z-index: 0
+            background-color: rgba(81,96,67,0.5)
+
+          &:hover:before
+            opacity: 1
+            cursor: pointer
+            background-color: rgba(181,139,45,0)
+
+#main__events
+  padding: 50px 50px
+  background: $light-grey
+  color: white
+
+#main__events>section
+  display: grid
+  grid-template-columns: 280px auto 140px
+  grid-template-rows: 180px
+
+  justify-items: center
+  align-items: center
+
+  margin-bottom: 20px
+
+  &:last-child
+    margin-bottom: 0px
+
+  .main__events--img
+    width: 280px
+    height: 180px
+
+  .main__events--content
+    padding-left: 20px
+
+    h2
+      font-family: 'Julius Sans One', sans-serif
+      font-size: 22px
+      margin-bottom: 10px
+
+    a
+      color: white
+
+  .main__events--date
+    text-align: right
+
+    p:last-child
+      padding-bottom: 10px
+      border-bottom: white solid 1px
+
+#main__events--nak
+  background: $dark-green
+
+#main__events--fisketur
+  background: $blue
+
+
+#main__social
+  padding: 50px 50px 50px 50px
+
+  section
+    display: inline-block
+    max-width: 435px
+    height: 430px
+    vertical-align: top
+
+#main__social--youtube
+  background: $blue
+  color: white
+  width: 431px
+  margin-left: 35px
+  padding: 50px
+  box-sizing: border-box
+
+  h3
+    font-family: 'Julius Sans One', sans-serif
+    font-size: 20px
+    margin-bottom: 40px
+
+  p
+    margin-bottom: 40px

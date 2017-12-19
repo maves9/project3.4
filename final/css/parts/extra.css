@@ -1,0 +1,19 @@
+.nav__ul__li--active{
+  border-bottom: solid 1px #fff;
+}
+.animal-info__body .animal-info__main .main__animal-list li[data-dyr] .animal-list_icon{
+  width: 30px;
+position: absolute;
+bottom: 5px;
+left: 50%;
+margin-left: -20px;
+display: block;
+z-index: 0;
+fill: #274047;
+}
+.animal-info__body .animal-info__main .main__animal-list li[data-dyr]{
+  padding-top: 5px;
+}
+.survey-options__btn, .survey__result-btn{
+  margin: auto;
+}

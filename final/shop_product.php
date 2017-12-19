@@ -39,8 +39,8 @@ if ($products_arr !== null) {
 			</header>
 <!-- Breadcrumbs and delivery-->
 			<section class="products__subheader">
-				<p class="products__subheader-breadcrumb">Alle produkter/</p><!-- breadcrumb skiftes -->
-				<a href="fragt.html"><p class="products__subheader-fragt">Altid Gratis Fragt & Retur ved Køb Over 1000,-</p></a>
+				<p class="products__subheader-breadcrumb">Alle produkter/<?php echo $product_found->navn ?></p><!-- breadcrumb skiftes -->
+				<a href="fragt.html"><p class="products__subheader-fragt">Altid Gratis Fragt &amp; Retur ved Køb Over 1000,-</p></a>
 			</section>
 <!-- Product information-->
 			<section class="products__display"><!-- produkter skiftes -->

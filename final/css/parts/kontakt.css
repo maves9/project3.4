@@ -174,7 +174,7 @@
     grid-row: 1; }
 
   .kontakt__info {
-    margin: 40% 2% 15% 10%;
+    margin: 30% 2% 15% 10%;
     padding: 5% 7%;
     grid-row: 1;
     grid-column: 1/2;
@@ -188,7 +188,7 @@
     margin-bottom:10px; }
 
   .kontakt__formular {
-    margin: 40% 10% 15% 2%;
+    margin: 30% 10% 15% 2%;
     padding: 5% 7%;
     grid-row: 1;
     grid-column: 2/3;

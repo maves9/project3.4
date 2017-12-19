@@ -27,7 +27,7 @@
 			</header>
 <!--Subheader with breadcrumbs and delievery-->
 			<section class="products__subheader">
-				<p class="products__subheader-breadcrumb">Alle produkter/</p><!-- breadcrumb skiftes -->
+				<p class="products__subheader-breadcrumb">Alle produkter</p><!-- breadcrumb skiftes -->
 				<a href="fragt.html"><p class="products__subheader-fragt">Altid Gratis Fragt & Retur ved Køb Over 1000,-</p></a>
 			</section>
 
